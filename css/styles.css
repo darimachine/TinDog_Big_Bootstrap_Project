@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Roboto:wght@100&family=Sacramento&family=Ubuntu:wght@700&display=swap');
+*{
+    font-family: 'Montserrat, sans-serif';  
+}
+h1 {  
+    font-family: 'Montserrat-Black, sans-serif';  
+    font-size: 5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    color:#fff;
+}
+#title{
+    background-color: #ff4c68;
+   
+   
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+.navbar{
+    padding-left: 0px;
+}
+/* Title Image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+ 
+   
+}
+/* section features */
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 6px;
+}
+#features{
+    z-index: 3;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+p{
+    color: #8f8f8f;
+}
+.fa-solid{
+    color:#ef8172;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
