@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Roboto:wght@100&family=Sacramento&family=Ubuntu:wght@700&display=swap');
 *{
-    font-family: 'Montserrat, sans-serif';  
+    font-family: 'Montserrat, sans-serif';
+    
 }
 h1 {  
     font-family: 'Montserrat-Black, sans-serif';  
@@ -12,11 +13,12 @@ h1 {
 }
 #title{
     background-color: #ff4c68;
+    
    
    
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 6%;
 }
 /* Navigation Bar */
 
@@ -37,6 +39,9 @@ h1 {
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right:20%;
+    
  
    
 }
@@ -48,8 +53,15 @@ h3{
     
 }
 #features{
- padding-top: 4%;
- padding-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: white;
+    position: relative;
+   
+}
+.img-z{
+    
+   
 }
 .centere{
     text-align: center;
