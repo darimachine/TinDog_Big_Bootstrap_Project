@@ -2,21 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Roboto:wght@100&family=Sacramento&family=Ubuntu:wght@700&display=swap');
 *{
     font-family: 'Montserrat, sans-serif';
-    
 }
-h1 {  
+body{
+    text-align: center;
+}
+h1,h2,h3,h4,h5 {  
+    font-family: "Monstserrat";
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+/* Headings */
+.big-heading{
     font-family: 'Montserrat-Black, sans-serif';  
     font-size: 5rem;  
     line-height: 1.5;  
     font-weight: 900;
     color:#fff;
 }
-#title{
-    background-color: #ff4c68;
-    
-   
-   
-}
+
+
+
+
+/* End of Heading */
 .container-fluid{
     padding: 3% 15% 6%;
 }
@@ -36,22 +45,36 @@ h1 {
     padding-left: 0px;
 }
 /* Title Image */
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+   
+   
+}
 .title-image{
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
     right:20%;
-    
- 
-   
 }
-/* section features */
-h3{
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 1.5rem;
+@media (max-width:1292px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        margin-top:20px;
+     
+    }
+    .title-text{
+        
+        font-size: 4rem;
+    }
     
 }
+/* Features Section */
+
 #features{
     padding-top: 4%;
     padding-bottom: 4%;
@@ -59,17 +82,10 @@ h3{
     position: relative;
    
 }
-.img-z{
-    
-   
+.feature-title{
+    font-size: 1.5rem;
 }
-.centere{
-    text-align: center;
-    align-items: center;
-}
-p{
-    color: #8f8f8f;
-}
+
 .icon{
     color:#ef8172;
     margin-bottom: 1rem;
@@ -81,12 +97,10 @@ p{
 #testimonials{
     color:#fff;
     
-    text-align: center;
+    
     background-color: #ef8172;
 }
-h2{
-    font-family: "Monstserrat";
-    font-weight: bold;
+.testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -112,7 +126,7 @@ h2{
 /* PRESS SECTION */
 #press{
     background-color: #ef8172;
-    text-align: center;
+    
     padding-bottom: 3%;
 }
 #press img{
@@ -120,8 +134,49 @@ h2{
     margin: 0px 20px;
 }
 
-/* Prising Section */
+/* Pricing Section */
 #pricing{
     padding: 100px;
-    text-align: center;
+    
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.product-titles{
+    font-size: 1.5rem;
+    
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Footer Section */
+#cta{
+    background-color: #ff4c68;
+    
+    padding: 7% 15%;
+}
+.footer-text{
+    color:white;
+    font-size: 3.5rem;
+    margin: auto;
+    padding-bottom: 20px;
+   
+}
+#footer{
+    color:white;
+    padding: 4% 0px;
+    
+}
+.footer-icons{
+    color:black;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.copyright{
+    font-size: 25px;
+}
+.btn-size{
+    font-size: 20px;
 }
